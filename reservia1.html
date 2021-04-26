@@ -17,31 +17,36 @@
                 <ul>
                     <li><a href="#hébergements">Hébergements</a></li>
                     <li><a href="#activités">Activités</a></li>
-                    <li><a href="inscription">S'inscrire</a></li>
                 </ul>
             </nav>
+            <a href="inscription">S'inscrire</a>
         </header>
 
         <!--MAIN SECTION-->
-        <div class="main">
+        <main class="main">
 
             <!--SECTION RESEARCH-->
 
             <section class="recherche">
                 <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
-                    <p>En plein centre ville ou en pleine nature</p>
-                    <form method="post" action="traitement.php">
-                        <p><label for="research"></label><i class="fas fa-map-marker-alt"></i><input type="text" name="research" id="research">Recherche</p>
-                    </form>
-                    <span>Filtres</span>
-                        <ul>
-                            <li><i class="fas fa-money-bill-wave"></i>Economique</li>
-                            <li><i class="fas fa-child"></i>Familial</li>
-                            <li><i class="fas fa-heart"></i>Romantique</li>
-                            <li><i class="fas fa-dog"></i> Animaux autorisés</li>
-                        </ul>
+                <p>En plein centre ville ou en pleine nature</p>
+                <form>
+                    <p>
+                        <label for="research"></label>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <input type="text" name="research" id="research">
+                        <input type="submit" value="Rechercher">
+                    </p>                        
+                </form>
+                <span>Filtres</span>
+                <ul>
+                    <li><i class="fas fa-money-bill-wave"></i>Economique</li>
+                    <li><i class="fas fa-child"></i>Familial</li>
+                    <li><i class="fas fa-heart"></i>Romantique</li>
+                    <li><i class="fas fa-dog"></i> Animaux autorisés</li>
+                </ul>
 
-                        <p><i class="fas fa-info-circle"></i>Plus de 500 logements disponibles dans cette ville</p>                        
+                <p><i class="fas fa-info-circle"></i>Plus de 500 logements disponibles dans cette ville</p>                        
             </section>
 
             <!--SECTION HEBERGEMENTS-->
@@ -63,7 +68,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <div class="grey"><i class="fas fa-star"></i></div>
+                            <i class="fas fa-star grey"></i>
                         </div>
                     </figure>
                 </a>
@@ -97,7 +102,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <div class="grey"><i class="fas fa-star"></i></div>
+                            <i class="fas fa-star grey"></i>
                         </div>
                     </figure>
                 </a>
@@ -113,8 +118,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <div class="grey"><i class="fas fa-star"></i></div>
-                            <div class="grey"><i class="fas fa-star"></i></div>
+                            <i class="fas fa-star grey"></i>
+                            <i class="fas fa-star grey"></i>
                         </div>
                     </figure>
                 </a>
@@ -131,7 +136,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                            <div class="grey"><i class="fas fa-star"></i></div>
+                            <i class="fas fa-star grey"></i>
                         </div>
                     </figure>
                 </a>
@@ -157,58 +162,58 @@
 
                 <aside>
                     <h2>Les plus populaires</h2><i class="fas fa-chart-line"></i>
-                        <a href="#">
-                            <figure>
-                                <img src="images/hebergements/4_small/hotellesoleildumatin.jpg" alt="photo hôtel le soleil du matin">
-                                <figcaption>
-                                    <span>Hôtel le soleil du matin</span>
-                                    <span>Nuit à partir de 128€</span>
-                                </figcaption>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </div>
-                            </figure>
-                        </a>
+                    <a href="#">
+                        <figure>
+                            <img src="images/hebergements/4_small/hotellesoleildumatin.jpg" alt="photo hôtel le soleil du matin">
+                            <figcaption>
+                                <span>Hôtel le soleil du matin</span>
+                                <span>Nuit à partir de 128€</span>
+                            </figcaption>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </figure>
+                    </a>
 
-                        <a href="#">
-                            <figure>
-                                <img src="images/hebergements/4_small/aucoeurdel'eau.jpg" alt="photo chambres d'hôtes au coeur de l'eau">
-                                <figcaption>
-                                    <span>Au coeur de l'eau Chambres d'Hôtes</span>
-                                    <span>Nuit à partir de 71€</span>
-                                </figcaption>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <div class="grey"><i class="fas fa-star"></i></div>
-                                </div>
-                            </figure>
-                        </a>
+                    <a href="#">
+                        <figure>
+                            <img src="images/hebergements/4_small/aucoeurdel'eau.jpg" alt="photo chambres d'hôtes au coeur de l'eau">
+                            <figcaption>
+                                <span>Au coeur de l'eau Chambres d'Hôtes</span>
+                                <span>Nuit à partir de 71€</span>
+                            </figcaption>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star grey"></i>
+                            </div>
+                        </figure>
+                    </a>
                         
-                        <a href="#">
-                            <figure>
-                                <img src="images/hebergements/4_small/hoteltoutbleuetblanc.jpg" alt="photo hôtel tout bleu et blanc">
-                                <figcaption>
-                                    <span>Hôtel Tout bleu et Blanc</span>
-                                    <span>Nuit à partir de 68€</span>
-                                </figcaption>
-                                <div class="star">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <div class="grey"><i class="fas fa-star"></i></div>
-                                </div>
-                            </figure>
-                        </a>
+                    <a href="#">
+                        <figure>
+                            <img src="images/hebergements/4_small/hoteltoutbleuetblanc.jpg" alt="photo hôtel tout bleu et blanc">
+                            <figcaption>
+                                <span>Hôtel Tout bleu et Blanc</span>
+                                <span>Nuit à partir de 68€</span>
+                            </figcaption>
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star grey"></i>
+                            </div>
+                        </figure>
+                    </a>
                 </aside>
-            <p>Afficher plus</p>
+                <a href="#">Afficher plus</a>
             </section>
             
             <!--SECTION ACTIVITES-->
@@ -225,7 +230,9 @@
 
                 <figure> <!--SMALL PIC-->
                     <img class="smaller" src="images/activites/4_small/fortdepomegues.jpg" alt="photo du fort de pomègues">
-                    <figcaption>Fort de Pomègues</figcaption>
+                    <figcaption>Fort de Pomègues</figcaption>                   
+                <figure>
+                    
                     <img class="smaller" src="images/activites/4_small/îlesdufrioul.jpg" alt="photo îles du frioul">
                     <figcaption>Îles du Frioul</figcaption>
                 </figure>
@@ -238,12 +245,14 @@
                 <figure> <!--SMALL PIC-->
                     <img class="smaller" src="images/activites/4_small/notredame.jpg" alt="photo de notre-dame-de-la-garde">
                     <figcaption>Notre-Dame-de-la-Garde</figcaption>
+                <figure>
+
                     <img class="smaller" src="images/activites/4_small/parclongchamp.jpg" alt="photo du parc longchamp">
                     <figcaption>Parc Longchamp</figcaption>
                 </figure>
             </section>
 
-        </div>
+        </main>
 
         <!--FOOTER SECTION-->
         
