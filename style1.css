@@ -126,28 +126,6 @@ nav {
     display: flex;
 }
 
-/*ACTIVITES SECTION*/
-
-.activités {
-    border: 1px solid orangered;
-    width: 100%;
-    height: 445px;
-    display: flex;
-    margin-top: 30px;
-}
-.activités img { /*SIZING IMG THEMSELVES*/
-    width: 302px;
-    height: 386px;
-}
-.activités figure { /*SIZING BOXES CONTAINING IMG*/
-    width: 302px;
-    height: 445px;
-}
-.activités .smaller { /*SIZING SMALLER IMG*/
-    width: 302px;
-    height: 193px;
-}
-
 /*ASIDE SECTION*/
 
 aside {
@@ -171,6 +149,86 @@ aside a { /*SIZING BOXES CONTAINING IMG*/
 }
 aside ul {
     display: flex;
+}
+
+/*ACTIVITES SECTION*/
+
+.activités h2 {
+    width: 180px;
+    height: 25px;
+    border: 1px solid green;
+    align-self: flex-start;
+}
+.activités {
+    border: 1px solid orangered;
+    width: 100%;
+    height: 489px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+.activités div {
+    width: 310px;
+    height: 446px;
+    border: 1px solid purple;
+}
+
+/*CONTAINER 1 IMG SIZING*/
+
+.activités .container1 img {
+    width: 302px;
+    height: 389px;
+}
+
+/*CONTAINER 3 IMG SIZING*/
+
+.activités .container3 img {
+    width: 302px;
+    height: 389px;
+}
+
+/*CONTAINER 2 AND CHILD ELEMENTS*/
+
+.activités .container2 {
+    flex-direction: column;
+}
+.activités .container2 .c2element1 {
+    width: 302px;
+    height: 239px;
+}
+.activités .container2 .c2element2 {
+    width: 302px;
+    height: 164px;
+}
+.activités .container2 .c2element1 .smaller { /*IMG SIZING IN CONTAINER 2*/
+    width: 302px;
+    height: 181px;
+}
+.activités .container2 .c2element2 .smaller { /*IDEM*/
+    width: 302px;
+    height: 109px;
+}
+
+/*CONTAINER 4 AND CHILD ELEMENTS*/
+
+.activités .container4 {
+    flex-direction: column;
+}
+.activités .container4 .c4element1 {
+    width: 302px;
+    height: 195px;
+}
+.activités .container4 .c4element2 {
+    width: 302px;
+    height: 209px;
+}
+.activités .container4 .c4element1 .smaller {
+    width: 302px;
+    height: 140px;
+}
+.activités .container4 .c4element2 .smaller {
+    width: 302px;
+    height: 153px;
 }
 
 /*FOOTER*/
