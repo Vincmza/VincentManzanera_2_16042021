@@ -1,0 +1,190 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/*HEADER*/
+
+header {
+    border: 1px solid blue;
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: flex-end;
+}
+header .logo {
+    justify-content: flex-start;
+}
+nav ul {
+    width: 400px;
+    height: 20px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav {
+    margin-left: auto;
+}
+
+/*MAIN*/
+
+.main {
+    border: 1px solid red;
+    width: 100%;
+    height: 1535px;
+}
+
+/*RECHERCHE SECTION*/
+
+.recherche {
+    border: 1px solid green;
+    width: 938px;
+    height: 260px;
+}
+.recherche .container {
+    width: 844px;
+    height: 131px;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+.recherche ul {
+    border: 1px solid red;
+    width: 844px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+.recherche li {
+    width: 194px;
+    height: 50px;
+    border: 1px solid orchid;
+}
+.recherche form {
+    width: 421px;
+    height: 50px;
+    border: 1px solid blue;
+}
+.recherche span {
+    width: 53px;
+    height: 50px;
+    border: 1px solid brown;
+}
+
+/*HERBERGEMENTS SECTION*/
+
+.hébergements { /*IMPACTING ALL CONTAINERS IN HEBERGEMENTS SECTION*/
+    border: 1px solid blueviolet;
+    width: 100%;
+    height: 624px;
+    display: flex;
+    justify-content: space-between;
+}
+.hébergements a { /*SIZING BOXES CONTAINING IMG*/
+    width: 246px;
+    height: 199px;
+    border: 1px solid red;
+}
+.hébergements img { /*SIZING IMG THEMSELVES*/
+    width: 236px;
+    height: 114px;
+}
+.hébergements .container0 { /*CONTAINS 6 (2X3) IMG OF HEBERGEMENTS SECTION IN BOTH CONTAINERS 1 & 2*/
+    flex-direction: column;
+    width: 860px;
+    height: 615px;
+    border: 1px solid red;
+}
+.hébergements .container1 { /*1ST CHILD ELEMENT OF CONTAINER0 CONTAINING 3 IMG*/ 
+    width: 840px;
+    height: 270px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.hébergements .container2 { /*2ND CHILD ELEMENT OF CONTAINER0 CONTAINING 3 IMG*/
+    width: 840px;
+    height: 270px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hébergements .container3 { /*CONTAINS ASIDE SECTION*/
+    width: 500px;
+    height: 624px;
+    border: 1px solid green;
+    display: flex;
+    justify-content: flex-end;
+}
+.hébergements .afficher { /*LINK BUTTON "DISPLAY" AT THE BOTTOM LEFT OF HERGEMENTS SECTION*/
+    width: 107px;
+    height: 17px;
+    border: 1px solid red;
+}
+.hébergements ul { /*STARS IN RELATION OF CUSTOM SATISFACTION*/
+    display: flex;
+}
+
+/*ACTIVITES SECTION*/
+
+.activités {
+    border: 1px solid orangered;
+    width: 100%;
+    height: 445px;
+    display: flex;
+    margin-top: 30px;
+}
+.activités img { /*SIZING IMG THEMSELVES*/
+    width: 302px;
+    height: 386px;
+}
+.activités figure { /*SIZING BOXES CONTAINING IMG*/
+    width: 302px;
+    height: 445px;
+}
+.activités .smaller { /*SIZING SMALLER IMG*/
+    width: 302px;
+    height: 193px;
+}
+
+/*ASIDE SECTION*/
+
+aside {
+    border: 1px solid yellow;
+    width: 418px;
+    height: 610px;
+}
+aside h2 {
+    width: 200px;
+    height: 20px;
+    border: 1px solid green;
+}
+aside img { /*SIZING IMG THEMSELVES*/
+    width: 127px;
+    height: 134px;
+}
+aside a { /*SIZING BOXES CONTAINING IMG*/
+    width: 343px;
+    height: 144px;
+    border: 1px solid blue;
+}
+aside ul {
+    display: flex;
+}
+
+/*FOOTER*/
+
+footer {
+    border: 1px solid turquoise;
+    width: 100%;
+    height: 218px;
+}
+
+
+
+
+
+
+
+
