@@ -78,12 +78,13 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-.hébergements .container1 a { /*SIZING BOXES CONTAINING IMG*/
-    width: 246px;
-    height: 199px;
+.hébergements .container0 { /*CONTAINS 6 (2X3) IMG OF HEBERGEMENTS SECTION IN CONTAINER 1*/
+    flex-direction: column;
+    width: 860px;
+    height: 615px;
     border: 1px solid red;
 }
-.hébergements .container2 a { 
+.hébergements .container1 a { /*SIZING BOXES CONTAINING IMG*/
     width: 246px;
     height: 199px;
     border: 1px solid red;
@@ -91,16 +92,6 @@ nav {
 .hébergements .container1 img { /*SIZING IMG THEMSELVES*/
     width: 236px;
     height: 114px;
-}
-.hébergements .container2 img { 
-    width: 236px;
-    height: 114px;
-}
-.hébergements .container0 { /*CONTAINS 6 (2X3) IMG OF HEBERGEMENTS SECTION IN BOTH CONTAINERS 1 & 2*/
-    flex-direction: column;
-    width: 860px;
-    height: 615px;
-    border: 1px solid red;
 }
 .hébergements .container1 { /*1ST CHILD ELEMENT OF CONTAINER0 CONTAINING 3 IMG*/ 
     width: 840px;
@@ -111,15 +102,7 @@ nav {
     align-items: center;
     margin-top: 10px;
 }
-.hébergements .container2 { /*2ND CHILD ELEMENT OF CONTAINER0 CONTAINING 3 IMG*/
-    width: 840px;
-    height: 270px;
-    border: 1px solid green;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hébergements .container3 { /*CONTAINS ASIDE SECTION*/
+.hébergements .container2 { /*CONTAINS ASIDE SECTION*/
     width: 500px;
     height: 630px;
     border: 1px solid green;
@@ -168,36 +151,7 @@ aside .element1 > .c3description1 {
     height: 134px;
     border: 1px solid red;
 }
-aside .element2 { /*2ND IMG & DESCRIPTION FROM THE TOP ASIDE SECTION*/
-    width: 343px;
-    height: 144px;
-    border: 1px solid blue;
-    display: flex;
-}
-aside .element2 img {
-    width: 127px;
-    height: 134px;
-}
-aside .element2 > .c3description2 {
-    width: 211px;
-    height: 134px;
-    border: 1px solid red;
-}
-aside .element3 { /*3RD IMG & DESCRIPTION FROM THE TOP ASIDE SECTION*/
-    width: 343px;
-    height: 144px;
-    border: 1px solid blue;
-    display: flex;
-}
-aside .element3 img {
-    width: 127px;
-    height: 134px;
-}
-aside .element3 > .c3description3 {
-    width: 211px;
-    height: 134px;
-    border: 1px solid red;
-}
+
 
 
 /*ACTIVITES SECTION*/
@@ -233,14 +187,6 @@ aside .element3 > .c3description3 {
     width: 302px;
     height: 389px;
 }
-
-/*ACTIVITES SECTION - CONTAINER 3 IMG SIZING*/
-
-.activités .container3 img {
-    width: 302px;
-    height: 389px;
-}
-
 /*ACTIVITES SECTION - CONTAINER 2 AND CHILD ELEMENTS*/
 
 .activités .container2 {
@@ -265,22 +211,22 @@ aside .element3 > .c3description3 {
 
 /*ACTIVITES SECTION - CONTAINER 4 AND CHILD ELEMENTS*/
 
-.activités .container4 {
+.activités .container3 {
     flex-direction: column;
 }
-.activités .container4 .c4element1 {
+.activités .container3 .c3element1 {
     width: 302px;
     height: 195px;
 }
-.activités .container4 .c4element2 {
+.activités .container3 .c3element2 {
     width: 302px;
     height: 209px;
 }
-.activités .container4 .c4element1 .smaller {
+.activités .container3 .c3element1 .smaller {
     width: 302px;
     height: 140px;
 }
-.activités .container4 .c4element2 .smaller {
+.activités .container3 .c3element2 .smaller {
     width: 302px;
     height: 153px;
 }
@@ -291,6 +237,20 @@ footer {
     border: 1px solid turquoise;
     width: 100%;
     height: 218px;
+    display: flex;
+}
+
+footer .foot {
+    width: 255px;
+    height: 114px;
+    border: 1px solid green;
+}
+footer > .bigfoot {
+    width: 1100px;
+    height: 120px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
 }
 
 
