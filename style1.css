@@ -272,7 +272,6 @@ aside i {
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
     background-color: white;
 }
-
 .popular-card a {
     width: 343px;
     height: 145px;
@@ -302,8 +301,6 @@ aside i {
     width: 216px;
     height: 133px;
     border: 1px solid green;
-}
-.descritpion-popular-card > .star {
 }
 
 
