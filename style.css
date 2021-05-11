@@ -1,14 +1,17 @@
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
 /*HEADER SECTION*/
-
+body {
+    margin: auto;
+}
 header {
     border: 1px solid blue;
-    width: 100%;
+    max-width: 1340px;
     height: 120px;
     display: flex;
     justify-content: flex-end;
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    margin: auto;
 }
 header .logo {
     justify-content: flex-start;
@@ -44,9 +47,10 @@ header a:hover {
 
 main {
     border: 1px solid red;
-    width: 100%;
+    max-width: 1340px;
     height: 1535px;
     font-family: 'Raleway', Arial, sans-serif;
+    margin: auto;
 }
 
 /*RESEARCH SECTION*/
@@ -220,6 +224,7 @@ main {
     width: 236px;
     height: 114px;
     border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
 }
 .description-host-card {
     display: flex;
@@ -281,24 +286,25 @@ aside i {
 }
 .popular-card img {
     width: 127px;
-    height: 133px;
+    height: 100%;
     border-radius: 20px 0px 0px 20px;
-}
-.popular-card .star {
-    padding-left: 20px;
+    object-fit: cover;
 }
 .popular-caption {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 20px;
-    padding-top: 10px;
+}
+.popular-caption > :nth-child(2) {
+    padding-top: 15px;
 }
 .descritpion-popular-card {
     display: flex;
     flex-direction: column;
     width: 216px;
-    height: 133px;
+    height: 100%;
     border: 1px solid green;
+    padding: 10px 10px 10px 20px;
+    justify-content: space-between;
 }
 
 /*TABLETS*/
