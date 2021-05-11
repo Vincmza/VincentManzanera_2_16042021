@@ -338,9 +338,9 @@ aside i {
     }
     .research .filters {
         width:100%;
-        height:60%;
         display:flex;
         justify-content:flex-start;
+        align-items:center
     }
     .research ul {
         height:85%;
@@ -358,7 +358,7 @@ aside i {
         justify-content:center;
     }
     .research > h1 {
-        font-size:1.2em;
+        font-size:1.1em;
         text-align:center;
     }
     .research > p {
@@ -372,5 +372,46 @@ aside i {
         justify-content:center;
         width:auto;
         margin-top:5px;
+    }
+    .host {
+        width:100%;
+        height:auto;
+        justify-content:flex-start;
+        height:auto;
+        align-items:unset;
+        flex-direction: column-reverse;
+    }   
+    .host2 {
+        width:100%;
+        height:auto;
+        display:flex;
+        align-items:flex-start;
+        flex-wrap:wrap;
+        flex-direction:row;
+    }
+    .host2 > span {
+        text-align:center;
+        width:100%;
+    }
+    .host2 > h2 {
+        width:100%;
+        text-align:center;
+    }
+
+    .host-card-intro {
+        flex-direction:column;
+        width:auto;
+        height:550px;
+    }
+    aside {
+        width:100%;
+        height:auto;
+        flex-direction:row;
+        flex-wrap:wrap;
+        align-items:unset;
+    }
+    aside > h2 {
+        margin-bottom:20px;
+        font-size:1.1em;
     }
 }
