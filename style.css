@@ -39,8 +39,8 @@ li > a {
     text-decoration-line: none;
 }
 header a:hover {
-    color: blue;
-    text-decoration-line: underline;
+    color: rgb(0, 101, 252);
+    border-top: 1px solid rgb(0, 101, 252);
 }
 
 /*MAIN*/
@@ -61,7 +61,7 @@ main {
     height: 265px;
 }
 .research > h1 {
-    font-size: 1.7em;
+    font-size: 1.2em;
     font-weight: bold;
 }
 .research > form {
@@ -190,7 +190,7 @@ main {
     width: 800px;
     height: 30px;
     border: 1px solid green;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 .host2 > span {
@@ -262,10 +262,10 @@ aside {
 }
 aside > h2 {
     width: 83%;
-    height: 20px;
+    height: 30px;
     border: 1px solid black;
     display: flex;
-    font-size: 1.2em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 aside i {
@@ -338,11 +338,11 @@ aside i {
     justify-content: space-between;
 }
 .activity > h2 {
-    width: 25%;
+    width: 20%;
     height: 25px;
     border: 1px solid red;
     font-family: 'Raleway', Arial, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
 }
 .activity-bloc {
@@ -418,6 +418,47 @@ aside i {
     height: 153px;
     object-fit: cover;
 }
+
+/*FOOTER*/
+
+footer {
+    width: 1440px;
+    height: 218px;
+    border:1px solid green;
+    margin: auto;
+    background-color: rgb(242, 242, 242);
+}
+.foot-card-container {
+    width: 81%;
+    height: 180px;
+    border: 1px solid blue;
+    display: flex;
+    margin-left: 50px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer-card {
+    width: 270px;
+    height: 140px;
+    border: 1px solid red;
+}
+.footer-card > span {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.footer-card > ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 1em;
+}
+.footer-card li {
+    padding-top: 12px;
+}
+
+
     
 /*TABLETS*/
 
@@ -571,4 +612,27 @@ aside i {
         margin:auto;
     }
 
+    /*FOOTER*/
+
+    footer {
+        width:100%;
+    }
+    .foot-card-container {
+        margin:auto;
+        height:100%;
+        align-items:center;
+    }
+    .footer-card > span {
+        font-size:1em;
+        width:100%;
+        height:auto;
+        display:flex;
+        justify-content:center
+    }
+    .footer-card > ul {
+        font-size:0.8em;
+        display:flex;
+        flex-direction:column;
+        align-items:center
+    }        
 }
