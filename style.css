@@ -175,6 +175,7 @@ main {
     border-radius: 11px 11px 11px 11px;
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-right: 10px;
     color: rgb(0, 101, 252)
 }
@@ -224,7 +225,6 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: 3px solid white;
 }
 .host-card-intro {
     border: 1px solid red;
@@ -241,7 +241,8 @@ main {
     border-radius: 20px 20px 20px 20px;
     background-color: white;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
-    border: 3px solid white;
+    border: 5px solid white;
+    overflow: hidden;
 }
 .host-card figure {
     width: 100%;
@@ -293,22 +294,24 @@ aside > h2 {
     display: flex;
     font-size: 1.3em;
     font-weight: bold;
+    font-family: 'Raleway', Arial, sans-serif;
 }
 aside i {
     margin-left: auto;
+    align-items: center;
 }
 .popular-card {
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
     background-color: white;
-    border: 3px solid white;
+    border: 5px solid white;
     width: 81.7%;
     height: 23%;
+    overflow: hidden;
 }
 .popular-card a {
     width: 100%;
     height: 100%;
-    border: 3px solid white;
     display: flex;
     justify-content: space-around;
     color: black;
@@ -534,13 +537,12 @@ footer {
         padding-bottom:15px;
     }
     nav {
-        margin:unset;
-        width:auto;
+        margin:auto;
+        width:100%;
         align-self:unset;
     }
     nav ul {
         display:flex;
-        width:auto;
         height:25px;
         font-size: 1.3em;
         justify-content:space-around;
@@ -559,26 +561,34 @@ footer {
     .research {
         width:auto;
     }
+    .research > :nth-child(2){
+        justify-content:center;
+    }
     .research .filters {
         width:100%;
+        height:300px;
         display:flex;
-        justify-content:flex-start;
+        flex-direction:column;
+        justify-content:space-around;
         align-items:center
     }
     .research ul {
-        height:100%;
+        height:60%;
         width:90%;
-        flex-direction:column;
         flex-wrap:wrap;
+        justify-content:space-between;
         align-items:center;
     }
     .research li {
         width:40%;
+        height:30%
     }
     .research span {
-        width:15%;
+        width:20%;
+        height:20%;
         display:flex;
         justify-content:center;
+        font-size:1.4em;
     }
     .research > h1 {
         font-size:1.1em;
@@ -588,7 +598,7 @@ footer {
         font-size:0.8em;
         text-align:center;
         display:flex;
-        justify-content:center;
+        justify-content:flex-start;
     }
     .research form {
         justify-content:center;
@@ -596,25 +606,62 @@ footer {
         margin-top:5px;
     }
 
-    /*HOST SECTION*/
+    /*HOST SECTION & ASIDE*/
 
+    /*ASIDE*/
+
+    aside {
+        width:100%;
+        height:850px;
+        display:flex;
+        flex-direction:column;
+        justify-content:space-around;
+    }
+    aside > :nth-child(2){
+        align-self:flex-start;
+    }
+    aside > :nth-child(4){
+        align-self:flex-end;
+    }
+    .descritpion-popular-card {
+        height:auto;
+    }
+    .popular-card img {
+        width:100%;
+        height:100%;
+    }
+    .popular-card {
+        width:60%;
+        height:25%;
+    }
+    aside > h2 {
+        font-size:1.1em;
+        width: 100%;
+        align-items:center
+    }
+
+    /*HOST*/
+    
     .host {
         width:100%;
         height:auto;
-        justify-content:flex-start;
-        height:auto;
-        align-items:unset;
         flex-direction: column-reverse;
-    }   
+    }
     .host2 {
         width:100%;
-        height:auto;
-        display:flex;
-        align-items:flex-start;
+        height:800px;
         flex-wrap:wrap;
-        flex-direction:row;
-        padding-top:10px;
+        flex-direction: row;
     }
+    .host-card-intro {
+        flex-direction:column;
+        width:32%;
+        height:91%;
+    }
+    .host-card {
+        width:100%;
+        height:30.75%;
+    }   
     .host2 > span {
         text-align:center;
         width:100%;
@@ -623,117 +670,19 @@ footer {
         width:100%;
         text-align:center;
     }
-
-    .host-card-intro {
-        flex-direction:column;
-        width:auto;
-        height:750px;
-    }
-    aside {
+    .host-card img {
         width:100%;
-        height:500px;
-        flex-direction:column;
-        align-items:unset
+        height:114px;
     }
-    .popular-card:nth-child(3) {
-        margin:auto;
-    }
-    .popular-card:nth-child(4) {
-        margin-left:auto;
-    }
-    aside > h2 {
-        margin-bottom:10px;
-        font-size:1.1em;
-        width: 100%;
-    }
-        
+            
     /*ACTIVITY SECTION*/
 
     main {
         height:100%;
     }
-    .activity {
-        width:100%;
-        height:1000px;
-        justify-content:unset;        
-    }
-    .activity > h2 {
-        width: 100%;
-        text-align:center;
-    }
-    .general-activity-bloc {
-        width:100%;
-        height:900px;
-        flex-direction:column;
-        flex-wrap:wrap;
-        align-items:center;
-        margin:auto;
-    }
-
-    /*FOOTER*/
-
-    footer {
-        width:100%;
-    }
-    .foot-card-container {
-        margin:auto;
-        height:100%;
-        align-items:center;
-    }
-    .footer-card > span {
-        font-size:1em;
-        width:100%;
-        height:auto;
-        display:flex;
-        justify-content:center
-    }
-    .footer-card > ul {
-        font-size:0.8em;
-        display:flex;
-        flex-direction:column;
-        align-items:center
-    }        
 }
 
-/*IPHONE 8-LIKE SCREEN*/
 
-@media screen and (max-width: 425px){
 
-    /*HEADER*/
-
-    header {
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-    }
-    header >.logo {
-        order:1;
-        width:auto;
-        height:auto;
-        padding-left:10px;        
-    }
-    header > a {
-        order:2;
-        padding-bottom:0px;
-        margin-left:auto;
-        padding-top:5px;
-        padding-right:10px;        
-    }
-    header > nav {
-        width:100%;
-        height:auto;
-        display:flex;
-        justify-content:center;
-        order:3;
-    }
-    nav > ul {
-        width:100%;
-        height:auto;               
-    }
-    header li:hover {
-        color:rgb(0, 101, 252);
-        border-bottom:2px solid rgb(0, 101, 252);
-    }
-}
 
 
