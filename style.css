@@ -27,9 +27,10 @@ nav {
     margin-left: auto;
     align-self: center;
     height: 100%;
+    width:30%;
 }
 nav ul {
-    width: 400px;
+    width: 100%;
     height: 100%;
     border: 1px solid green;
     display: flex;
@@ -68,35 +69,36 @@ main {
 .research {
     width: 70%;
     border: 1px solid green;
-    height: 265px;
+    height: 17%;
 }
 .research > h1 {
     font-size: 1.2em;
     font-weight: bold;
 }
 .research > form {
-    width: 500px;
-    height: 55px;
+    width: 55%;
+    height: 22%;
     border: 1px solid blue;
     display: flex;
     align-items: center;
 }
 .research label {
     display: flex;
+    width: 55.5%;
 }
 .search-button {/*RESEARCH BUTTON*/
     border-radius: 0px 10px 10px 0px;
     background-color: rgb(0, 101, 252);
     color: white;
     border-style: none;
-    width: 133px;
+    width: 26%;
     font-size: 1.1em;
     font-weight: bold;
     padding: 10px
 }
 .icon-position { /*ICON POSITION SEARCH BAR*/
     background-color: rgb(242, 242, 242);
-    width: 52px;
+    width: 18%;
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -104,7 +106,7 @@ main {
 }
 #research { /*RESEARCH FIELD*/
     background-color: white;
-    width: 232px;
+    width: 82%;
     border-style: 1px solid;
     border-color: rgb(242, 242, 242);
     border-right-style: none;
@@ -115,14 +117,14 @@ main {
 }
 .research > .filters {
     width: 90%;
-    height: 110px;
+    height: 43%;
     border: 1px solid red;
     display: flex;
     align-items: center;
 }
 .research span {
-    width: 53px;
-    height: 50px;
+    width: 6%;
+    height: 46%;
     border: 1px solid brown;
     font-weight: bold;
     display: flex;
@@ -130,8 +132,8 @@ main {
 }
 .research ul { /*FILTERS CLASS*/
     border: 1px solid black;
-    width: 844px;
-    height: 50px;
+    width: 94%;
+    height: 46%;
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
@@ -182,7 +184,7 @@ main {
 .host {
     border: 1px solid blue;
     width: 100%;
-    height: 626px;
+    height: 41%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -190,8 +192,8 @@ main {
     margin-bottom: 50px;
 }
 .host2 {
-    width: 880px;
-    height: 624px;
+    width: 66%;
+    height: 99.6%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -201,15 +203,15 @@ main {
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
 .host2 > h2 {
-    width: 800px;
-    height: 30px;
+    width: 91%;
+    height: 4.8%;
     border: 1px solid green;
     font-size: 1.3em;
     font-weight: bold;
 }
 .host2 > span {
-    width: 800px;
-    height: 30px;
+    width: 91%;
+    height: 4.8%;
     border: 1px solid green;
     font-size: 1.2em;
     font-weight: bold;
@@ -226,14 +228,14 @@ main {
 }
 .host-card-intro {
     border: 1px solid red;
-    width: 800px;
-    height: 199px;
+    width: 91%;
+    height: 32%;
     display: flex;
     justify-content: space-around;
 }
 .host-card {
-    width: 246px;
-    height: 199px;
+    width: 30.75%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     border-radius: 20px 20px 20px 20px;
@@ -241,9 +243,13 @@ main {
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
     border: 3px solid white;
 }
+.host-card figure {
+    width: 100%;
+    height: 62.5%;
+}
 .host-card img {
-    width: 236px;
-    height: 114px;
+    width: 100%;
+    height: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
@@ -269,8 +275,8 @@ ul {
 
 aside {
     border: 1px solid green;
-    width: 420px;
-    height: 626px;
+    width: 31.3%;
+    height: 99.6%;
     background-color: rgb(242, 242, 242);
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
@@ -282,7 +288,7 @@ aside {
 }
 aside > h2 {
     width: 83%;
-    height: 30px;
+    height: 4.8%;
     border: 1px solid black;
     display: flex;
     font-size: 1.3em;
@@ -296,8 +302,8 @@ aside i {
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
     background-color: white;
     border: 3px solid white;
-    width: 343px;
-    height: 145px;
+    width: 81.7%;
+    height: 23%;
 }
 .popular-card a {
     width: 100%;
@@ -308,8 +314,12 @@ aside i {
     color: black;
     text-decoration-line: none;
 }
+.popular-card figure {
+    width: 37%;
+    height:100%;
+}
 .popular-card img {
-    width: 127px;
+    width: 100%;
     height: 100%;
     border-radius: 20px 0px 0px 20px;
     object-fit: cover;
@@ -324,7 +334,7 @@ aside i {
 .descritpion-popular-card {
     display: flex;
     flex-direction: column;
-    width: 216px;
+    width: 63%;
     height: 100%;
     border: 1px solid green;
     padding: 10px 10px 10px 20px;
@@ -335,7 +345,7 @@ aside i {
 
 .activity {
     width: 100%;
-    height: 500px;
+    height: 32.6%;
     border: 1px solid black;
     display: flex;
     flex-direction: column;
@@ -354,7 +364,7 @@ aside i {
 }
 .general-activity-bloc {
     width: 100%;
-    height: 450px;
+    height: 90%;
     display: flex;
     justify-content: space-between;
 }
@@ -369,14 +379,18 @@ aside i {
 .activity-bloc {
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
+.activity-bloc figure {
+    width: 100%;
+    height: 87.1%;
+}
 .activity-bloc img {
     width: 100%;
-    height: 388px;
+    height: 100%;
     object-fit: cover;
 }
 .activity-bloc, .activity-dual1, .activity-dual2 {
-    width: 302px;
-    height: 450px;
+    width: 22.6%;
+    height: 100%;
     border: 1px solid red;
     border-radius: 20px 20px 20px 20px;
 }
@@ -390,26 +404,34 @@ aside i {
 
 .activity-dual1 > .dual1-card1 {
     width: 100%;
-    height: 237px;
+    height: 52.7%;
     border: 1px solid blue;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
 .activity-dual1 > .dual1-card2 {
     width: 100%;
-    height: 164px;
+    height: 36.4%;
     border: 1px solid purple;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
+.dual1-card1 figure {
+    width: 100%;
+    height: 78%;
+}
 .dual1-card1 img {
     width: 100%;
-    height: 181px;
+    height: 100%;
     object-fit: cover;
+}
+.dual1-card2 figure {
+    width: 100%;
+    height: 68.9%;
 }
 .dual1-card2 img {
     width: 100%;
-    height: 109px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -417,26 +439,34 @@ aside i {
 
 .activity-dual2 > .dual2-card1 {
     width: 100%;
-    height: 195px;
+    height: 43.3%;
     border: 1px solid blue;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
 .activity-dual2 > .dual2-card2 {
     width: 100%;
-    height: 209px;
+    height: 46.4%;
     border: 1px solid purple;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
+.dual2-card1 figure {
+    width: 100%;
+    height: 73.8%;
+}
 .dual2-card1 img {
     width: 100%;
-    height: 140px;
+    height: 100%;
     object-fit: cover;
+}
+.dual2-card2 figure {
+    width: 100%;
+    height: 75.1%;
 }
 .dual2-card2 img {
     width: 100%;
-    height: 153px;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -451,7 +481,7 @@ footer {
 }
 .foot-card-container {
     width: 81%;
-    height: 180px;
+    height: 82.7%;
     border: 1px solid blue;
     display: flex;
     margin-left: 50px;
@@ -459,8 +489,8 @@ footer {
     justify-content: space-between;
 }
 .footer-card {
-    width: 270px;
-    height: 140px;
+    width: 23.2%;
+    height: 78%;
     border: 1px solid red;
 }
 .footer-card > span {
