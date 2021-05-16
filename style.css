@@ -34,7 +34,7 @@ nav ul {
     height: 100%;
     border: 1px solid green;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 nav li {
@@ -92,6 +92,7 @@ main {
     color: white;
     border-style: none;
     width: 26%;
+    font-family: 'Raleway', Arial, sans-serif;
     font-size: 1.1em;
     font-weight: bold;
     padding: 10px
@@ -113,10 +114,12 @@ main {
     border-left-style: none;
     border-top: 1px solid rgb(242, 242, 242);
     padding: 10px;
+    font-family: 'Raleway', Arial, sans-serif;
     font-size: 1.1em;
+    font-weight: bold;
 }
 .research > .filters {
-    width: 90%;
+    width: 100%;
     height: 43%;
     border: 1px solid red;
     display: flex;
@@ -129,6 +132,7 @@ main {
     font-weight: bold;
     display: flex;
     align-items: center;
+    margin-right: 10px;
 }
 .research ul { /*FILTERS CLASS*/
     border: 1px solid black;
@@ -257,6 +261,10 @@ main {
 .description-host-card {
     display: flex;
     flex-direction: column;
+    padding-left: 10px;
+}
+.description-host-card span {
+    margin-bottom: 5px;
 }
 .caption {
     font-weight: bold;
@@ -295,6 +303,7 @@ aside > h2 {
     font-size: 1.3em;
     font-weight: bold;
     font-family: 'Raleway', Arial, sans-serif;
+    align-items: center;
 }
 aside i {
     margin-left: auto;
@@ -382,18 +391,14 @@ aside i {
 .activity-bloc {
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
-.activity-bloc figure {
-    width: 100%;
-    height: 87.1%;
-}
 .activity-bloc img {
     width: 100%;
-    height: 100%;
+    height: 390px;
     object-fit: cover;
 }
 .activity-bloc, .activity-dual1, .activity-dual2 {
     width: 22.6%;
-    height: 100%;
+    height: 446px;
     border: 1px solid red;
     border-radius: 20px 20px 20px 20px;
 }
@@ -407,34 +412,26 @@ aside i {
 
 .activity-dual1 > .dual1-card1 {
     width: 100%;
-    height: 52.7%;
+    height: 236px;
     border: 1px solid blue;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
 .activity-dual1 > .dual1-card2 {
     width: 100%;
-    height: 36.4%;
+    height: 164px;
     border: 1px solid purple;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
-.dual1-card1 figure {
-    width: 100%;
-    height: 78%;
-}
 .dual1-card1 img {
     width: 100%;
-    height: 100%;
+    height: 180px;
     object-fit: cover;
-}
-.dual1-card2 figure {
-    width: 100%;
-    height: 68.9%;
 }
 .dual1-card2 img {
     width: 100%;
-    height: 100%;
+    height: 110px;
     object-fit: cover;
 }
 
@@ -442,34 +439,26 @@ aside i {
 
 .activity-dual2 > .dual2-card1 {
     width: 100%;
-    height: 43.3%;
+    height: 195px;
     border: 1px solid blue;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
 .activity-dual2 > .dual2-card2 {
     width: 100%;
-    height: 46.4%;
+    height: 209px;
     border: 1px solid purple;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
-.dual2-card1 figure {
-    width: 100%;
-    height: 73.8%;
-}
 .dual2-card1 img {
     width: 100%;
-    height: 100%;
+    height: 140px;
     object-fit: cover;
-}
-.dual2-card2 figure {
-    width: 100%;
-    height: 75.1%;
 }
 .dual2-card2 img {
     width: 100%;
-    height: 100%;
+    height: 153px;
     object-fit: cover;
 }
 
