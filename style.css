@@ -43,6 +43,7 @@ nav li {
     align-items: center;
     width: 50%;
     justify-content: center;
+    border-top: 1px solid transparent;
 }
 li > a {
     color: black;
@@ -50,7 +51,7 @@ li > a {
 }
 header li:hover, header a:hover {
     color: rgb(0, 101, 252);
-    border-top: 3px solid rgb(0, 101, 252);
+    border-top: 2px solid rgb(0, 101, 252);
 }
 header a:hover {
     border-top:none
@@ -754,7 +755,7 @@ footer {
     }
     nav > a:hover {
         color: rgb(0,101,252);
-        border-bottom:3px solid rgb(0,101,252);
+        border-bottom:2px solid rgb(0,101,252);
     }
     nav > li {
         width:50%;
