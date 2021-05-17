@@ -41,6 +41,8 @@ nav li {
     height: 100%;
     display: flex;
     align-items: center;
+    width: 50%;
+    justify-content: center;
 }
 li > a {
     color: black;
@@ -96,6 +98,9 @@ main {
     font-size: 1.1em;
     font-weight: bold;
     padding: 10px
+}
+.search-button-mobile {
+    display: none;
 }
 .icon-position { /*ICON POSITION SEARCH BAR*/
     background-color: rgb(242, 242, 242);
@@ -719,8 +724,93 @@ footer {
         text-align:center;
     }
 }
+        /*IPHONE8-LIKE SCREEN*/
 
+@media screen and (max-width: 425px){
 
+    /*HEADER*/
 
+    header {
+        display:flex;
+        flex-direction:row;
+        flex-wrap:wrap;
+    }
+    .logo {
+        padding-left:15px;
+    }
+    header > a:nth-child(3){
+        order:2;
+        padding-bottom:unset;
+        margin-left:auto;
+        padding-right:15px;
+    }
+    header > nav:nth-child(2){
+        order:3;
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-end;
+        height:30%;
+        font-size:0.9em;
+    }
+    nav > a:hover {
+        color: rgb(0,101,252);
+        border-bottom:2px solid rgb(0,101,252);
+    }
+    nav > li {
+        width:50%;
+    }
 
+    /*RESEARCH SECTION*/
 
+    .research > h1 {
+        font-size: 1.6em;
+        text-align:start;
+        padding-left:15px;
+        padding-right:30px;
+    }
+    .research > p:nth-child(2) {
+        justify-content:start;
+        padding-left:15px;
+        font-size:1.1em;
+    }
+    .research > form {
+        width:auto;
+        align-items:unset
+    }
+    .research label {
+        width:75%;
+        justify-content:flex-end;       
+    }
+    #research {
+        width:100%;
+    }
+    .research span {
+        width:auto;
+        height:auto;
+        margin:unset;
+    }
+    .search-button {
+        display:none;
+    }
+    .search-button-mobile {
+        background-color:rgb(0,101,252);
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        width:11%;
+        height:auto;
+        border-radius:30% 30% 30%;
+        border:none;
+    }
+    .search-icon > i {
+        color:white;
+        width:auto;
+        height:auto;
+        font-size:0.9em;      
+    }
+    .icon-position {
+        width:15%;
+        height:auto;
+        align-items:center;
+    }
+}
