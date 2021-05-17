@@ -50,7 +50,7 @@ li > a {
 }
 header li:hover, header a:hover {
     color: rgb(0, 101, 252);
-    border-top: 1px solid rgb(0, 101, 252);
+    border-top: 3px solid rgb(0, 101, 252);
 }
 header a:hover {
     border-top:none
@@ -724,11 +724,11 @@ footer {
         text-align:center;
     }
 }
-        /*IPHONE8-LIKE SCREEN*/
+    /*IPHONE8-LIKE SCREEN*/
 
 @media screen and (max-width: 425px){
 
-    /*HEADER*/
+        /*HEADER*/
 
     header {
         display:flex;
@@ -754,13 +754,13 @@ footer {
     }
     nav > a:hover {
         color: rgb(0,101,252);
-        border-bottom:2px solid rgb(0,101,252);
+        border-bottom:3px solid rgb(0,101,252);
     }
     nav > li {
         width:50%;
     }
 
-    /*RESEARCH SECTION*/
+        /*RESEARCH SECTION*/
 
     .research > h1 {
         font-size: 1.6em;
