@@ -177,6 +177,7 @@ main {
     padding-bottom: 10px;
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 0.9em;
+    align-items: center;
 }
 .icon-info {
     width: 22px;
@@ -727,7 +728,7 @@ footer {
 }
     /*IPHONE8-LIKE SCREEN*/
 
-@media screen and (max-width: 425px){
+    @media screen and (max-width: 425px){
 
         /*HEADER*/
 
@@ -751,7 +752,7 @@ footer {
         flex-direction:column;
         justify-content:flex-end;
         height:30%;
-        font-size:0.9em;
+        font-size:0.8em;
     }
     nav > a:hover {
         color: rgb(0,101,252);
@@ -761,29 +762,31 @@ footer {
         width:50%;
     }
 
-        /*RESEARCH SECTION*/
+    /*RESEARCH SECTION*/
 
     .research > h1 {
-        font-size: 1.6em;
+        font-size: 1.4em;
         text-align:start;
         padding-left:15px;
-        padding-right:30px;
+        padding-right:20px;
+        padding-top:20px
     }
     .research > p:nth-child(2) {
         justify-content:start;
         padding-left:15px;
-        font-size:1.1em;
+        font-size:1em;
     }
     .research > form {
         width:auto;
         align-items:unset
     }
     .research label {
-        width:75%;
-        justify-content:flex-end;       
+        width:100%;
+        justify-content:flex-end;
+        padding-left:15px;    
     }
     #research {
-        width:100%;
+        padding-left:20px;        
     }
     .research span {
         width:auto;
@@ -798,10 +801,11 @@ footer {
         display:flex;
         align-items:center;
         justify-content:center;
-        width:11%;
+        width:15%;
         height:auto;
         border-radius:30% 30% 30%;
         border:none;
+        margin-right:20px;
     }
     .search-icon > i {
         color:white;
@@ -810,8 +814,45 @@ footer {
         font-size:0.9em;      
     }
     .icon-position {
-        width:15%;
+        width:18%;
         height:auto;
         align-items:center;
     }
+    .research > .filters {
+        align-items:flex-start;
+        padding-top:20px;
+        padding-left:15px;
+        padding-right:20px;
+        justify-content:flex-start;        
+    }
+    .filters > ul {
+        width:100%;
+        height:250px;
+        display:flex;
+        flex-wrap:wrap;        
+    }
+    .filters > span {
+        font-size:1.3em;
+    }
+    .research li {
+        height:auto;
+        width:auto;
+        border: 2px solid rgb(217, 217, 217);
+    }
+    .icon-filter {
+        margin-right:5px;
+    }
+    .icon-info {
+        margin-left:15px;
+        font-size:0.7em;
+        align-self:start;
+        width:28px;
+        height:23px;
+    }   
+    .research > p {
+        font-size:1em;
+        text-align:start;
+        padding-right:20px;
+    }
+    
 }
