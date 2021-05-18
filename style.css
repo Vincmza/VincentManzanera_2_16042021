@@ -43,7 +43,7 @@ nav li {
     align-items: center;
     width: 50%;
     justify-content: center;
-    border-top: 1px solid transparent;
+    border-top: 2px solid transparent;
 }
 li > a {
     color: black;
@@ -94,14 +94,14 @@ main {
     background-color: rgb(0, 101, 252);
     color: white;
     border-style: none;
-    width: 26%;
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 1.1em;
     font-weight: bold;
     padding: 10px
 }
-.search-button-mobile {
-    display: none;
+.search-button-desktop {
+    width:auto;
+    height:auto;
 }
 .icon-position { /*ICON POSITION SEARCH BAR*/
     background-color: rgb(242, 242, 242);
@@ -140,6 +140,10 @@ main {
     align-items: center;
     margin-right: 10px;
 }
+.research .search-icon {
+    display: none;
+}
+
 .research ul { /*FILTERS CLASS*/
     border: 1px solid black;
     width: 94%;
@@ -149,13 +153,14 @@ main {
     justify-content: space-between;
 }
 .research li {
-    border: 1px solid rgb(217, 217, 217);
+    border: 2px solid rgb(217, 217, 217);
     border-radius: 25px 25px 25px 25px;
     font-weight: bold;
     text-align: center;
     display: flex;
     align-items: center;
     padding-right: 25px;
+    height:50px;
 }
 .icon-filter {
     background-color: rgb(222, 235, 255);
@@ -167,6 +172,7 @@ main {
     min-width: 50px;
     height: 50px;
     margin-right: 20px;
+    margin-left: -2px;
 }
 .filters li:hover {
     background-color: rgb(217, 217, 217);
@@ -180,7 +186,7 @@ main {
     align-items: center;
 }
 .icon-info {
-    width: 22px;
+    min-width: 22px;
     height: 22px;
     border: 1px solid rgb(217, 217, 217);
     border-radius: 11px 11px 11px 11px;
@@ -254,6 +260,7 @@ main {
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
     border: 5px solid white;
     overflow: hidden;
+    font-size: 0.9em;
 }
 .host-card figure {
     width: 100%;
@@ -324,6 +331,7 @@ aside i {
     width: 81.7%;
     height: 23%;
     overflow: hidden;
+    font-size: 0.9em;
 }
 .popular-card a {
     width: 100%;
@@ -577,7 +585,7 @@ footer {
     }
     .research li {
         width:40%;
-        height:30%
+        height:50px;
     }
     .research span {
         width:20%;
@@ -600,6 +608,12 @@ footer {
         justify-content:center;
         width:auto;
         margin-top:5px;
+    }
+    .research .search-button-desktop {
+        display:none;
+    }
+    .research .search-icon {
+        display:block;
     }
 
     /*HOST SECTION & ASIDE*/
@@ -738,13 +752,13 @@ footer {
         flex-wrap:wrap;
     }
     .logo {
-        padding-left:15px;
+        padding-left:20px;
     }
     header > a:nth-child(3){
         order:2;
         padding-bottom:unset;
         margin-left:auto;
-        padding-right:15px;
+        padding-right:20px;
     }
     header > nav:nth-child(2){
         order:3;
@@ -762,18 +776,18 @@ footer {
         width:50%;
     }
 
-    /*RESEARCH SECTION*/
+        /*RESEARCH SECTION*/
 
     .research > h1 {
         font-size: 1.4em;
         text-align:start;
-        padding-left:15px;
+        padding-left:20px;
         padding-right:20px;
         padding-top:20px
     }
     .research > p:nth-child(2) {
         justify-content:start;
-        padding-left:15px;
+        padding-left:20px;
         font-size:1em;
     }
     .research > form {
@@ -783,7 +797,7 @@ footer {
     .research label {
         width:100%;
         justify-content:flex-end;
-        padding-left:15px;    
+        padding-left:20px;    
     }
     #research {
         padding-left:20px;        
@@ -794,9 +808,6 @@ footer {
         margin:unset;
     }
     .search-button {
-        display:none;
-    }
-    .search-button-mobile {
         background-color:rgb(0,101,252);
         display:flex;
         align-items:center;
@@ -811,7 +822,7 @@ footer {
         color:white;
         width:auto;
         height:auto;
-        font-size:0.9em;      
+        font-size:0.8em;      
     }
     .icon-position {
         width:18%;
@@ -821,38 +832,87 @@ footer {
     .research > .filters {
         align-items:flex-start;
         padding-top:20px;
-        padding-left:15px;
+        padding-left:20px;
         padding-right:20px;
         justify-content:flex-start;        
     }
     .filters > ul {
         width:100%;
-        height:250px;
+        height:200px;
         display:flex;
         flex-wrap:wrap;        
     }
     .filters > span {
         font-size:1.3em;
+        margin-bottom:20px;
     }
     .research li {
-        height:auto;
+        height:50px;
         width:auto;
         border: 2px solid rgb(217, 217, 217);
     }
     .icon-filter {
         margin-right:5px;
+        margin-left:-2px;
     }
     .icon-info {
         margin-left:15px;
         font-size:0.7em;
         align-self:start;
-        width:28px;
-        height:23px;
     }   
     .research > p {
         font-size:1em;
         text-align:start;
         padding-right:20px;
     }
+
+    /*HOST & MOST POPULAR SECTION*/
+
+    aside {
+        margin-top:20px;
+        justify-content:flex-start;
+        height:580px;
+        width:100%;
+        padding:0px 20px;
+        justify-content:space-evenly;
+    }
+    aside > h2 {
+        width:100%;
+    }
+    aside > h2 > i {
+        margin-left:auto;
+    }
+    .popular-card {
+        height:144px;
+        width:auto;
+    }
+    /*HOST SECTION*/
+    
+    .host2 {
+        flex-direction:column;
+        padding-left:20px;
+        padding-right:20px;
+        justify-content:flex-start;
+        height:auto;
+    }
+    .host2 > h2 {
+        width:100%;
+        height:auto;
+        justify-content:start;
+        margin-top:40px;
+        margin-bottom:20px;
+    }
+    .host2 > span {
+        font-size:1.1em;
+        margin-top:20px;
+    }
+    .host-card-intro {
+        width:100%;
+        height:auto;
+    }
+    .host-card {
+        margin-bottom:20px;
+    }
+    
     
 }
