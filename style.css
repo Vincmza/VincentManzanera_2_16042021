@@ -85,6 +85,10 @@ main {
     display: flex;
     align-items: center;
 }
+.search-bar {
+    display: flex;
+    width: 100%;
+}
 .research label {
     display: flex;
     width: 55.5%;
@@ -114,11 +118,10 @@ main {
 #research { /*RESEARCH FIELD*/
     background-color: white;
     width: 82%;
-    border-style: 1px solid;
+    border: 2px solid rgb(242, 242, 242);
     border-color: rgb(242, 242, 242);
     border-right-style: none;
     border-left-style: none;
-    border-top: 1px solid rgb(242, 242, 242);
     padding: 10px;
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 1.1em;
@@ -608,12 +611,32 @@ footer {
         justify-content:center;
         width:auto;
         margin-top:5px;
+        height:60px;
+    }
+    .search-bar {
+        width: 100%;
+        justify-content: center;
+        height: 100%;
     }
     .research .search-button-desktop {
         display:none;
     }
     .research .search-icon {
         display:block;
+        width: 90%;
+        height:auto;
+        font-size: 1em;
+    }
+    .search-button {
+        width:9%;
+        height:100%;
+    }
+    .research label {
+        height:100%;
+        width:45%;
+    }
+    .icon-position {
+        align-items:center;
     }
 
     /*HOST SECTION & ASIDE*/
@@ -790,9 +813,14 @@ footer {
         padding-left:20px;
         font-size:1em;
     }
+    .search-bar {
+        height:100%;
+        border: -1px solid rgb(242, 242, 242);
+    }
     .research > form {
         width:auto;
-        align-items:unset
+        align-items:unset;
+        height:50px;
     }
     .research label {
         width:100%;
@@ -817,12 +845,8 @@ footer {
         border-radius:30% 30% 30%;
         border:none;
         margin-right:20px;
-    }
-    .search-icon > i {
-        color:white;
-        width:auto;
-        height:auto;
-        font-size:0.8em;      
+        font-size: 1em;
+        margin-left:-7px;
     }
     .icon-position {
         width:18%;
@@ -864,6 +888,10 @@ footer {
         font-size:1em;
         text-align:start;
         padding-right:20px;
+    }
+    .research .search-icon {
+        height:auto;
+        
     }
 
     /*HOST & MOST POPULAR SECTION*/
