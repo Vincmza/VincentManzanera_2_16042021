@@ -5,7 +5,7 @@ body {
     margin: auto;
 }
 header {
-    border: 1px solid blue;
+    border: 0px solid blue;
     max-width: 1340px;
     height: 120px;
     display: flex;
@@ -32,7 +32,7 @@ nav {
 nav ul {
     width: 100%;
     height: 100%;
-    border: 1px solid green;
+    border: 0px solid green;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -60,7 +60,7 @@ header a:hover {
 /*MAIN*/
 
 main {
-    border: 1px solid red;
+    border: 0px solid red;
     max-width: 1340px;
     height: 1535px;
     font-family: 'Raleway', Arial, sans-serif;
@@ -71,7 +71,7 @@ main {
 
 .research {
     width: 70%;
-    border: 1px solid green;
+    border: 0px solid green;
     height: 17%;
 }
 .research > h1 {
@@ -81,7 +81,7 @@ main {
 .research > form {
     width: 55%;
     height: 22%;
-    border: 1px solid blue;
+    border: 0px solid blue;
     display: flex;
     align-items: center;
 }
@@ -130,14 +130,14 @@ main {
 .research > .filters {
     width: 100%;
     height: 43%;
-    border: 1px solid red;
+    border: 0px solid red;
     display: flex;
     align-items: center;
 }
 .research span {
     width: 6%;
     height: 46%;
-    border: 1px solid brown;
+    border: 0px solid brown;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -148,7 +148,7 @@ main {
 }
 
 .research ul { /*FILTERS CLASS*/
-    border: 1px solid black;
+    border: 0px solid black;
     width: 94%;
     height: 46%;
     display: flex;
@@ -203,7 +203,7 @@ main {
 /*SECTION HEBERGEMENTS*/
 
 .host {
-    border: 1px solid blue;
+    border: 0px solid blue;
     width: 100%;
     height: 41%;
     display: flex;
@@ -226,14 +226,14 @@ main {
 .host2 > h2 {
     width: 91%;
     height: 4.8%;
-    border: 1px solid green;
+    border: 0px solid green;
     font-size: 1.3em;
     font-weight: bold;
 }
 .host2 > span {
     width: 91%;
     height: 4.8%;
-    border: 1px solid green;
+    border: 0px solid green;
     font-size: 1.2em;
     font-weight: bold;
 }
@@ -247,7 +247,7 @@ main {
     justify-content: space-between;
 }
 .host-card-intro {
-    border: 1px solid red;
+    border: 0px solid red;
     width: 91%;
     height: 32%;
     display: flex;
@@ -300,7 +300,7 @@ ul {
 /*MOST POPULAR SECTION*/
 
 aside {
-    border: 1px solid green;
+    border: 0px solid green;
     width: 31.3%;
     height: 99.6%;
     background-color: rgb(242, 242, 242);
@@ -311,11 +311,12 @@ aside {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    font-family: 'Raleway', Arial, sans-serif;
 }
 aside > h2 {
     width: 83%;
     height: 4.8%;
-    border: 1px solid black;
+    border: 0px solid black;
     display: flex;
     font-size: 1.3em;
     font-weight: bold;
@@ -366,7 +367,7 @@ aside i {
     flex-direction: column;
     width: 63%;
     height: 100%;
-    border: 1px solid green;
+    border: 0px solid green;
     padding: 10px 10px 10px 20px;
     justify-content: space-between;
 }
@@ -376,7 +377,7 @@ aside i {
 .activity {
     width: 100%;
     height: 32.6%;
-    border: 1px solid black;
+    border: 0px solid black;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -401,7 +402,7 @@ aside i {
 .activity > h2 {
     width: 20%;
     height: 25px;
-    border: 1px solid red;
+    border: 0px solid red;
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 1.3em;
     font-weight: bold;
@@ -417,7 +418,7 @@ aside i {
 .activity-bloc, .activity-dual1, .activity-dual2 {
     width: 22.6%;
     height: 446px;
-    border: 1px solid red;
+    border: 0px solid red;
     border-radius: 20px 20px 20px 20px;
 }
 .activity-dual1, .activity-dual2 {
@@ -431,14 +432,14 @@ aside i {
 .activity-dual1 > .dual1-card1 {
     width: 100%;
     height: 236px;
-    border: 1px solid blue;
+    border: 0px solid blue;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
 .activity-dual1 > .dual1-card2 {
     width: 100%;
     height: 164px;
-    border: 1px solid purple;
+    border: 0px solid purple;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
@@ -458,14 +459,14 @@ aside i {
 .activity-dual2 > .dual2-card1 {
     width: 100%;
     height: 195px;
-    border: 1px solid blue;
+    border: 0px solid blue;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
 .activity-dual2 > .dual2-card2 {
     width: 100%;
     height: 209px;
-    border: 1px solid purple;
+    border: 0px solid purple;
     border-radius: 20px 20px 20px 20px;
     box-shadow: 4px 4px 0px rgb(233, 233, 233);
 }
@@ -485,14 +486,14 @@ aside i {
 footer {
     width: 1440px;
     height: 218px;
-    border:1px solid green;
+    border:0px solid green;
     margin: auto;
     background-color: rgb(242, 242, 242);
 }
 .foot-card-container {
     width: 81%;
     height: 82.7%;
-    border: 1px solid blue;
+    border: 0px solid blue;
     display: flex;
     margin-left: 50px;
     align-items: flex-end;
@@ -501,7 +502,7 @@ footer {
 .footer-card {
     width: 23.2%;
     height: 78%;
-    border: 1px solid red;
+    border: 0px solid red;
 }
 .footer-card > span {
     font-family: 'Raleway', Arial, sans-serif;
