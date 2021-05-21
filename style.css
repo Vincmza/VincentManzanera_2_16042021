@@ -1177,5 +1177,51 @@ footer {
         width:30%;
         font-size:0.9em;
     }
+}
 
+@media screen and (min-width: 426px) and (max-width: 600px) {
+
+    .search-button {
+        width:12%;
+    }
+    .popular-card {
+        font-size:0.8em;
+        height:22%;
+        width:75%
+    }
+    .host-card-intro {
+        width:45%;
+    }
+    .activity-bloc, .activity-dual1, .activity-dual2 {
+        width:40%;
+        font-size:0.9em;
+    }
+    footer{
+        height:500px;
+        align-items:flex-end;
+    }
+    .footer-card {
+        text-align:start;
+        align-items:flex-start;
+        width:50%;
+    }
+    .foot-card-container {
+        flex-direction:column;
+        align-items:flex-start;        
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 525px) {
+
+    /*FILTERS SECTION*/
+
+    .filters > ul {
+        flex-direction:column;
+        flex-wrap:nowrap;
+        height:80%;
+        justify-content:space-evenly;
+    }
+    .filters li {
+        width:60%;
+    }
 }
