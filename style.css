@@ -1185,6 +1185,9 @@ footer {
     .search-button {
         width:12%;
     }
+    .research label {
+        width:60%;
+    }
     .popular-card {
         font-size:0.8em;
         height:22%;
