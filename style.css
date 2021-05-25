@@ -759,7 +759,7 @@ footer {
         width:100%;
     }
     nav li:nth-child(1){
-        border-bottom: 2px solid rgb(0,101,252);   
+        border-bottom: 3px solid rgb(0,101,252);   
     }
     nav li:nth-child(1) > a {
         color:rgb(0,101,252);
@@ -867,15 +867,18 @@ footer {
 
     aside {
         margin-top:20px;
-        justify-content:flex-start;
-        height:580px;
+        height:600px;
         width:100%;
         padding:0px 20px;
-        justify-content:space-evenly;
+        flex-direction:column;
         box-shadow:unset;
+        justify-content:flex-start;
     }
     aside > h2 {
         width:100%;
+        font-size:1.4em;
+        margin-top:40px;
+        margin-bottom:20px;
     }
     aside > h2 > i {
         margin-left:auto;
@@ -886,9 +889,10 @@ footer {
     .popular-card {
         height:144px;
         width:auto;
+        margin-bottom:15px;
     }
     .descritpion-popular-card {
-        font-size:0.9em;
+        font-size:1.1em;
     }
     /*HOST SECTION*/
     
@@ -906,6 +910,7 @@ footer {
         justify-content:start;
         margin-top:40px;
         margin-bottom:20px;
+        font-size:1.4em;
     }
     .host2 > span {
         font-size:1.1em;
@@ -926,8 +931,9 @@ footer {
         height:auto;
         justify-content:start;
         margin-left:20px;
-        margin-bottom:30px;
-        margin-right:20px;      
+        margin-bottom:20px;
+        margin-right:20px;
+        font-size:1.4em;     
     }
     .activity img {
         height:134px;
