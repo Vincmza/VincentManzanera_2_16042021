@@ -545,12 +545,12 @@ footer {
     }
     .research ul {
         height:60%;
-        width:90%;
+        width:75%;
         flex-direction:column;
         flex-wrap:wrap;    
     }
     .research li {
-        width:40%;
+        width:45%;
         height:50px;
     }
     .research span {
@@ -560,10 +560,10 @@ footer {
         font-size:1.4em;
     }
     .research > h1 {
-        font-size:1.1em;
+        font-size:1.4em;
     }
     .research > p {
-        font-size:0.8em;
+        font-size:1.2em;
         text-align:center;
         display:flex;
         justify-content:flex-start;
@@ -592,7 +592,7 @@ footer {
     }
     .research label {
         height:100%;
-        width:45%;
+        width:62%;
     }
     .icon-position {
         align-items:center;
@@ -616,7 +616,7 @@ footer {
     }
     .descritpion-popular-card {
         height:auto;
-        font-size: 1em;
+        font-size: 1.2em;
     }
     .popular-card img {
         width:100%;
@@ -627,8 +627,10 @@ footer {
         height:40%;
     }
     aside > h2 {
-        font-size:1.1em;
-        margin-right: auto;
+        font-size:1.4em;
+        width:100%;
+        height:auto;
+        justify-content:center; 
     }
     aside > h2 > i {
         margin-left:5%;
@@ -646,23 +648,24 @@ footer {
         width:100%;
         height:900px;
         flex-wrap:wrap;
-        flex-direction: row;
+        flex-direction:row;
         border-radius:unset;
         background-color:white;
     }
     .host-card-intro {
         flex-direction:column;
         width:32%;
-        height:91%;
-        justify-content:space-around;
+        height:auto;
     }
     .host-card {
         width:100%;
         height:199px;
+        margin-bottom:30px;
     }   
     .host2 > span {
         display:flex;
         align-items:center;
+        padding-left:30px;
         width:100%;
     }
     .host2 > h2 {
@@ -670,6 +673,9 @@ footer {
         justify-content:center;
         align-items:center;
         width:100%;
+        height:auto;
+        font-size:1.4em;
+        margin-top:20px
     }
     .host-card img {
         width:100%;
@@ -832,9 +838,7 @@ footer {
         height:180px;
         align-items:flex-start;
         flex-wrap:wrap;
-    }
-    .filters > ul > li:nth-child(2){
-        order:4;
+        flex-direction:row;
     }
     .filters > span {
         font-size:1.3em;
@@ -915,6 +919,7 @@ footer {
     .host2 > span {
         font-size:1.1em;
         margin-top:20px;
+        padding-left: unset;
     }
     .host-card-intro {
         width:100%;
@@ -981,11 +986,12 @@ footer {
     footer {
         width:100%;
         height:486px;
+        font-size: 1.2em;
     }
     .foot-card-container {
         flex-direction:column;
         align-items:flex-start;
-        margin-top:50px;
+        margin-top:40px;
         width:100%;
         height:85%
     }
@@ -1056,7 +1062,8 @@ footer {
         align-items:center;
     }
     aside > h2 {
-        width:70%;   
+        width:70%;
+        font-size: 1.5em;  
     }
     aside {
         align-self:unset;
@@ -1107,6 +1114,7 @@ footer {
         height:auto;
         font-size:1.1em;
         margin-bottom:30px;
+        padding-left: 20px;
     }
 
     /*ACTIVITY SECTION*/
@@ -1222,6 +1230,7 @@ footer {
     footer{
         height:500px;
         align-items:flex-end;
+        font-size: 1.1em;
     }
     .footer-card {
         text-align:start;
@@ -1246,6 +1255,12 @@ footer {
         justify-content:space-evenly;
     }
     .filters li {
-        width:60%;
+        width:65%;
+    }
+    .research p {
+        font-size:1em;
+    }
+    .descritpion-popular-card {
+        font-size:1.1em;
     }
 }
