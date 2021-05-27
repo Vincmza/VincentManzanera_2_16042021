@@ -1030,6 +1030,10 @@ footer {
     .foot-card-container {
         width:90%;
     }
+    .activity {
+        padding-left:20px;
+        padding-right:20px;
+    }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 769px){
