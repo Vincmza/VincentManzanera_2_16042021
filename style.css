@@ -594,7 +594,7 @@ footer {
         font-size: 1em;
     }
     .search-button {
-        width:9%;
+        width:12%;
         height:100%;
     }
     .research label {
@@ -661,7 +661,7 @@ footer {
     }
     .host-card-intro {
         flex-direction:column;
-        width:32%;
+        width:40%;
         height:auto;
     }
     .host-card {
@@ -704,18 +704,41 @@ footer {
         height:30px;
         display:flex;
         justify-content:center;
+        margin-bottom: 40px;
     }
     .general-activity-bloc {
-        height:1000px;
         width:100%;
-        flex-wrap:wrap;
+        height:900px;
         flex-direction:column;
-        align-items:center; 
-        justify-content:space-around;               
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content: flex-start;
     }
-    .activity-bloc, .activity-dual1, .activity-dual2 {
-        width:35%;
+    .activity img {
+        height:180px;
+        width:100%;
     }
+    .activity-bloc {
+        width: 40%;
+        height: 250px;
+        margin-bottom:40px;
+    }
+    .activity-dual1, .activity-dual2 {
+        width:40%;
+        height:auto;
+    }
+    .activity-dual1 > .dual1-card1, .activity-dual1 > .dual1-card2 {
+        height:250px;
+        width:100%;
+    }
+    .activity-dual2 > .dual2-card1, .activity-dual2 > .dual2-card1 {
+        height:250px;
+        width:100%;
+    }
+    .dual1-card1, .dual2-card1 {
+        margin-bottom:40px;
+    }
+
     /*FOOTER*/
 
     footer {
@@ -1125,7 +1148,7 @@ footer {
     }
     .host-card-intro {
         flex-direction:column;
-        width:35%;
+        width:40%;
         height:91%;
         justify-content:space-around;
     }
@@ -1162,21 +1185,41 @@ footer {
         height:auto;
         font-size:1.5em;
         text-align:center;
+        margin-bottom: 40px;
     }
     .general-activity-bloc {
-        width:90%;
-        height:1000px;
+        width:100%;
+        height:900px;
         flex-direction:column;
         flex-wrap:wrap;
         align-items:center;
-        justify-content:space-around;
+        justify-content: flex-start;
+    }
+    .activity img {
+        height:180px;
+        width:100%;
     }
     .activity-bloc {
-        width:30%;
+        width: 40%;
+        height: 250px;
+        margin-bottom:40px;
     }
     .activity-dual1, .activity-dual2 {
-        width:30%;
+        width:40%;
+        height:auto;
     }
+    .activity-dual1 > .dual1-card1, .activity-dual1 > .dual1-card2 {
+        height:250px;
+        width:100%;
+    }
+    .activity-dual2 > .dual2-card1, .activity-dual2 > .dual2-card1 {
+        height:250px;
+        width:100%;
+    }
+    .dual1-card1, .dual2-card1 {
+        margin-bottom:40px;
+    }
+
 
     /*FOOTER*/
 
